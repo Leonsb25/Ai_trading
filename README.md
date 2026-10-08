@@ -6,7 +6,7 @@
 [![React](https://img.shields.io/badge/react-18-blue.svg)](https://reactjs.org/)
 [![Status](https://img.shields.io/badge/status-active-success.svg)]()
 
-## 📊 Overview
+## Overview
 
 **Hermes Trading** is a full-stack trading simulation platform with **real-time market data integration**, portfolio management, **trading signals**, **AI-powered automated trading bots**, and ML-powered trading strategies. Built with Django REST Framework (backend) and React (frontend), Hermes provides a realistic trading experience with automatic price updates, comprehensive performance tracking, intelligent buy/sell signals, and fully automated trading bots powered by machine learning.
 
@@ -14,15 +14,15 @@ Named after the Greek god of commerce and trade, Hermes combines speed, intellig
 
 ---
 
-**📚 Documentation:**
+**Documentation:**
 - [Backend Documentation](backend_django/README.md) - API setup & endpoints
 - [Frontend Documentation](frontend_react/README.md) - React app & components
 
 ---
 
-## ✨ Key Features
+##  Key Features
 
-### 🎯 Core Trading Functionality
+###  Core Trading Functionality
 - **Real-Time Stock Prices** - Integration with Yahoo Finance API for live market data
 - **Automatic Price Updates** - Holdings refresh every 30 seconds with current market prices
 - **Interactive Price Charts** - Historical price visualization with multiple time periods (1D, 1W, 1M, 3M, 1Y, 5Y)
@@ -47,7 +47,7 @@ Named after the Greek god of commerce and trade, Hermes combines speed, intellig
 - **Backtesting System** - Test bot strategies on historical data before live trading
 - **Bot Management Dashboard** - Create, monitor, pause, and manage multiple trading bots
 
-### 🔔 Trading Signals
+###  Trading Signals
 - **Index Addition Alerts** - Get notified when stocks enter NASDAQ 100 or S&P 500
 - **Action Recommendations** - Buy, Sell, Watch, or Hold signals
 - **Unread Badge Notifications** - Visual alerts in navigation menu with count
@@ -56,7 +56,7 @@ Named after the Greek god of commerce and trade, Hermes combines speed, intellig
 - **Signal Management** - Mark as read or dismiss signals
 - **Auto-Refresh** - Signal count updates every 60 seconds
 
-### 📈 Performance Tracking
+###  Performance Tracking
 - **Historical Performance Charts** - Track portfolio value from purchase date forward
 - **Individual Stock Analysis** - View performance of specific stocks
 - **Automatic Snapshots** - System saves portfolio state every 30 seconds
@@ -64,13 +64,13 @@ Named after the Greek god of commerce and trade, Hermes combines speed, intellig
 - **Best/Worst Performers** - Identify top and bottom performing stocks
 - **Unrealized vs Realized P/L** - Separate tracking for open and closed positions
 
-### 🧠 ML Trading Strategies
+###  ML Trading Strategies
 - **Pivot Point Analysis** - Technical analysis for support/resistance levels
 - **Next-Day Price Prediction** - ML-based price movement forecasting
 - **Stock Screener** - Analyze stocks for index addition eligibility
 - **Index Rebalancing Analysis** - Track index reconstitution events
 
-### 👤 User Management
+###  User Management
 - **Custom User Authentication** - Token-based secure authentication
 - **Account Balance Tracking** - Real-time balance updates
 - **Transaction History** - Complete audit trail of all activities
@@ -90,8 +90,8 @@ Named after the Greek god of commerce and trade, Hermes combines speed, intellig
 
 #### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/com5102/fall2025-group2.git
-cd fall2025-group2
+git clone https://github.com/Leonsb25/Ai_trading.git
+cd Ai_trading
 ```
 
 #### 2️⃣ Backend Setup (Django)
@@ -146,7 +146,7 @@ Frontend will open at: **http://localhost:3000/**
 
 ---
 
-## 🧪 Testing Features
+##  Testing Features
 
 ### Create Test User and Signals
 
@@ -198,7 +198,7 @@ Signal.objects.create(
     is_active=True
 )
 
-print("✅ Test user and signals created!")
+print(" Test user and signals created!")
 print(f"Login: test@example.com / testpass123")
 quit()
 ```
@@ -220,7 +220,7 @@ python manage.py backtest_hermes --risk-level MEDIUM --investment 1000
 
 ---
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Base URL
 ```
@@ -279,7 +279,7 @@ Authorization: Token <your_token_here>
 
 ---
 
-## 💡 How to Use
+##  How to Use
 
 ### 1. Register & Login
 - Navigate to **http://localhost:3000**
@@ -339,7 +339,7 @@ Authorization: Token <your_token_here>
 
 ---
 
-## 🤖 Hermes Bot Risk Profiles
+##  Hermes Bot Risk Profiles
 
 ### LOW Risk (Conservative)
 - **Expected Return**: 2% per month
@@ -413,7 +413,7 @@ Hermes_Trading/
 
 ---
 
-## 📚 Database Models
+##  Database Models
 
 ### User Model
 - Custom user with email authentication
@@ -447,7 +447,7 @@ Hermes_Trading/
 
 ---
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 For production deployment, configure:
@@ -538,7 +538,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 🆘 Support & Documentation
 
 ### Resources:
-- **GitHub Repository**: https://github.com/com5102/fall2025-group2
+- **GitHub Repository**: https://github.com/Leonsb25/Ai_trading/
 - **API Documentation**: Check `/api/` endpoint when server is running
 - **Django Documentation**: https://docs.djangoproject.com/
 - **React Documentation**: https://reactjs.org/
@@ -565,14 +565,6 @@ rm db.sqlite3
 python manage.py migrate
 ```
 
----
-
-## 👥 Team
-
-**Course:** Enock Katenda, Leon Bhupathi, Leandro Ardiles, Butholenskosi Sibanda, Tafadzwa Terence
-**Course:** COM5102 - Fall 2025  
-**Group:** Group 2  
-**GitHub:** https://github.com/com5102/fall2025-group2
 
 ---
 
@@ -589,7 +581,7 @@ python manage.py migrate
 ## 📞 Contact
 
 For questions or issues:
-- **GitHub Issues:** https://github.com/com5102/fall2025-group2/issues
+- **GitHub Issues:** https://github.com/Leonsb25/Ai_trading/issues
 
 ---
 
